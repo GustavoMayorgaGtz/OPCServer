@@ -1,0 +1,18 @@
+{
+  "name": "opcserver",
+  "version": "1.0.0",
+  "description": "opcserver to connect plc",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Mayorga",
+  "license": "ISC",
+  "dependencies": {
+    "node-opcua": "^2.105.0",
+    "nodemon": "^2.0.22",
+    "opcua": "^1.0.0"
+  },
+  "keywords": []
+}
